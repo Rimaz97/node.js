@@ -7,7 +7,11 @@
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
-  "keywords": ["nodejs", "server", "homework"],
+  "keywords": [
+    "nodejs",
+    "server",
+    "homework"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
