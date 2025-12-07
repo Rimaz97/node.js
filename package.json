@@ -1,16 +1,18 @@
 {
-  "name": "demo",
+  "name": "library-mongodb",
   "version": "1.0.0",
-  "description": "Дз по Node.js",
-  "main": "src/index.js",
+  "description": "Library API with MongoDB",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
-  "keywords": ["nodejs", "server", "homework"],
-  "author": "",
-  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^7.8.8"
+  },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.1.11"
   }
 }
